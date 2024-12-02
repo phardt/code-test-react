@@ -1,0 +1,3 @@
+.find-user-layout-min-height {
+  min-height: calc(100vh - 56px);
+}

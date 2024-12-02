@@ -48,3 +48,8 @@ export default tseslint.config({
   },
 })
 ```
+## Install and execute application
+
+To install the application execute: `npm install`
+
+To execute the appalication, after install, execute: `npm run dev`

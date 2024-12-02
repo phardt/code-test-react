@@ -19,6 +19,10 @@ export default tseslint.config(
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
+      quotes: ["error", "single"],
+      '@typescript-eslint/no-explicit-any': 'off',
+      'no-trailing-spaces': 'error',
+      'indent': ['error', 2],
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },

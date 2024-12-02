@@ -1,0 +1,24 @@
+.background-star-text {
+  background-color: #488207;
+  color: white;
+  min-width: 60px;
+  display: flex;
+  justify-content: center;
+  height: 28px;
+}
+
+.background-star {
+  background-color: #55960c;
+  color: white;
+  min-width: '30px';
+  min-width: 50px;
+  display: flex;
+  justify-content: center;
+  height: 28px;
+}
+
+.card-text-limit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis ellipsis;
+}
